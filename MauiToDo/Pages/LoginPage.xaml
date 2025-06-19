@@ -1,0 +1,12 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiToDo.Pages.LoginPage"
+             Title="Giris Yap">
+    <VerticalStackLayout Padding="30" Spacing="15">
+        <Entry x:Name="UsernameEntry" Placeholder="Kullanici Adi" />
+        <Entry x:Name="PasswordEntry" Placeholder="Sifre" IsPassword="True" />
+        <Button Text="Giris Yap" Clicked="OnLoginClicked" />
+        <Button Text="Kayit Ol" Clicked="OnRegisterNavigateClicked" />
+        <Label x:Name="ErrorLabel" TextColor="Red" IsVisible="False" />
+    </VerticalStackLayout>
+</ContentPage>

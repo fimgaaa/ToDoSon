@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MauiToDo.API.props" />
+</Project>

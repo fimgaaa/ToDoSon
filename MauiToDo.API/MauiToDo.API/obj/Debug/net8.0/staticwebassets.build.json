@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Gy1CpGzgTe6bm+o0Fn31RP3jKnCd3Od0WrwE+8i/5wk=",
+  "Source": "MauiToDo.API",
+  "BasePath": "_content/MauiToDo.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

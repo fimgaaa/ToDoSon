@@ -1,0 +1,15 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiToDo.Pages.ToDoFormPage"
+             Title="{Binding PageTitle}">
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Entry x:Name="TitleEntry" Placeholder="Baslik" />
+        <Editor x:Name="DescriptionEditor" Placeholder="Aciklama" AutoSize="TextChanges" />
+        <DatePicker x:Name="DueDatePicker" />
+        <CheckBox x:Name="IsCompletedCheckBox" />
+        <Label Text="Tamamlandi mi?" />
+
+        <Button Text="Kaydet" Clicked="OnSaveClicked" />
+        <Label x:Name="ErrorLabel" TextColor="Red" IsVisible="False" />
+    </VerticalStackLayout>
+</ContentPage>
